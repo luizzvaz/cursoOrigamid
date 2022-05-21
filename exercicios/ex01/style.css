@@ -1,0 +1,34 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 2.5em;
+}
+a{
+    padding: 10px;
+    color:  black;
+}
+
+a:hover{
+    background-color: rgba(165, 42, 42, 0.255);
+    color: aliceblue
+}
+h2 a{
+    color: green;
+    text-decoration: none;
+}
+h2 a:hover{
+    text-decoration: underline;
+    color: blueviolet;
+    background-color: rgba(137, 43, 226, 0.181);
+    border-radius: 5%;
+}
+.hoje{
+    color: brown    ;
+}
+.amanha{
+    color: darkblue;
+}
+.amanha:hover,.hoje:hover{
+    text-decoration: underline;
+}
