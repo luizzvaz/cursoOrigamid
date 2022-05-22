@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+div{
+    background-color: gray;
+    padding: 10px;
+    width: 350px;
+    height: auto;
+    margin: 30px;
+}
+h1{
+    background-color: #8844ee;
+    margin: 0;
+    padding: 10px;
+    border: 4px solid black;
+    margin: 30px;
+}   

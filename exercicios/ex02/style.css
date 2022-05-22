@@ -1,0 +1,29 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+h1{
+    text-align: center;
+}
+h2{
+    color: white;
+}
+div{
+    font-size: 20px;
+    padding: 30px;
+    background-color: #111;
+    margin: 50px;
+    border-radius: 4px;
+}
+p{
+    color: #b2b2b2;
+}
+span{
+    color: #febe01;
+}
+button{
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #febe01;
+    font-size: 1em;
+}
