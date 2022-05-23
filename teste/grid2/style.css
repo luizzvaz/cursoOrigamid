@@ -1,0 +1,82 @@
+.grid{
+    display: grid;
+    /* todos os elementos passam a ser grid itens*/
+    gap: 20px;
+    grid-template-columns: repeat(2,1fr)  ;/*1fr 1fr;
+    /*place-items: end center;*/
+    grid-template-rows: auto;
+    /*  grid-auto-rows: 300px;*/
+    place-items: start;
+    grid-template-rows: auto auto auto 1fr;   
+}
+.titulo{
+    grid-column: 1/-1;
+}
+.foto{
+    grid-column: 1;
+    grid-row: 2/5;
+}
+/*.preco{
+    grid-row: 3;
+    grid-column: 2;
+    grid-area: 3/2;
+}
+/* como fazer para imagem ou item ocupar mais espaço
+ COMO MECHER NA COLUNA */
+/*.foto{
+    grid-column: span 2*/  /*1/-1 ;
+}*//*
+.titulo{
+    grid-column: 2;
+    text-align: right;
+}
+.preco{
+    place-self: start end;
+}
+.comprar{
+    align-self: start;
+    text-align: center;
+}
+.descricao{
+    text-align: center;
+} */
+
+
+
+/* estilos gerais*/
+body{
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,p{
+    margin: 0px;
+}
+h1{
+    font-size: 48px;
+    line-height: 1;
+}
+p,span{
+    font-size: 20px;
+}
+.comprar{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #a8f;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.grid{
+    display: grid;
+}
+.preco{
+    background-color: #ddd;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+span{
+    font-size: 20px;
+}
+img{
+    border-radius: 5px;
+    max-width: 100% ;
+}

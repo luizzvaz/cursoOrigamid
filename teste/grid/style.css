@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+}
+.ok{
+    background-color: rgba(166, 165, 164, 0.577);
+    padding: 30px;
+    margin-bottom: 20px;
+    border: 1px solid #f35151;
+}
+.comprar{
+    text-decoration: none;
+    padding: 10px 20px;
+    background: #a8f;
+    border-radius: 4px;
+}
+.gride{
+    display: grid;
+    grid-template-columns: 400px 400px ;
+    gap: 20px;
+    justify-content: space-around;
+}

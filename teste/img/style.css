@@ -1,0 +1,13 @@
+img{
+    max-width: 100%;
+    display: block;
+}
+div{
+    width: 800px;
+}
+.foto{
+    width: 150px;
+}
+.test img{
+    width: 100%;
+}
