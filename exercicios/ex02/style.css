@@ -1,11 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    
+    margin: 50px;
 }
 h1{
     text-align: center;
 }
 h2{
+    margin: 0px;
     color: white;
 }
 div{
@@ -16,14 +17,23 @@ div{
     border-radius: 4px;
 }
 p{
+    padding: 20px;
+    margin: 10px;
     color: #b2b2b2;
 }
 span{
     color: #febe01;
 }
-button{
+a{
+    margin: 15px;
     border-radius: 8px;
     padding: 20px;
     background-color: #febe01;
     font-size: 1em;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: underline;
 }
