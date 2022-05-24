@@ -1,0 +1,19 @@
+h1{
+    border: 2px solid #ccc;
+    padding: 20px 20px 200px 20px;
+}
+P{
+    background: #E7E7E7;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 20px;
+    margin: 0;
+}
+.fixo{
+    position: fixed;
+    top: 0px;
+    left: 50px;
+    right: 500px;
+}
+/* sempre escolher se ele fica fixo em relação ao top ou botton
+geralmente o login fica fixo no topo*/
