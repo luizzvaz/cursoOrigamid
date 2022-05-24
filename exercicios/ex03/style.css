@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    font-family: arial;
+    background: #f7f7f7;
+ 
+   
+}
+p{
+    font-size: 20px;
+}
+h1{
+    font-size: 64px;
+    color: #c6c6c6;
+}
+header{
+    text-align: center;
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.flex a{
+    text-decoration: none;
+    color: black;
+    background: white;
+    padding: 20px 30px;
+    border-radius: 4px;
+    flex-wrap: wrap;
+
+}
+.flex a:hover{
+    border: 1px solid gray;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 500px 500px ;
+    justify-content: center;
+    margin-top: 50px;
+    
+    
+}
+.bike{
+    max-width: 100%;
+    
+}
+.texto{
+    background: white;
+    padding: 35px 30px;
+    text-align: right;
+   
+}
+.texto h2{
+    font-size: 2em;
+}
+.vermais{
+    display: inline-block;
+    background: rgba(255, 0, 0, 0.844);
+    padding: 10px 20px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 4px;
+}
+.vermais:hover{
+    border: 1px solid  white 
+}
+.imagem{
+    position: relative;
+}
+.linha{
+    display: inline-block;
+    background-color: red;
+    height: 5px;
+    width: 80px;
+    position: absolute;
+    top: 10px;
+    left: -40px;
+}
+.grid2{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 40px 250px;
+    padding: 40px;
+}
+h3{
+    margin-top: 0;
+}
+h1{
+    text-align: right;
+    padding: 30px;
+}
+footer{
+    text-align: center;
+    background-color: #ffffff;
+    font-family: arial;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 50px;
+}
