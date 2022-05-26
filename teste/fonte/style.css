@@ -1,0 +1,13 @@
+p{
+    font-size: 2rem; /*tamanho*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/* tipo de fonte, colocar mais 1, pois caso n tenha um vai assumindo o proximo*/
+    font-weight: 600;/* niveis de negrito*/
+    font-style: oblique;/* italic, etc, obliquo*/
+    line-height: 2;/* altura de linha*/
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-indent: 3rem;
+    text-align: center;
+    text-shadow: 5px 5px 10px gray;
+    letter-spacing: 0.4rem;
+}
