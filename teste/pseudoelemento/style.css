@@ -1,0 +1,45 @@
+h1{
+    position: relative;
+}
+h1::before{
+    content: "";
+    display: inline-block;
+    width: 70px;
+    height: 5px;
+    background-color: #caf;
+}
+h1::after{
+    content: "";
+    display:block;
+    width: 5px;
+    height: 50px;
+    background-color: #caf;
+    position: absolute;
+    top: 50px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+}
+ul{
+    list-style: none;
+}
+li::before{
+    display: inline-block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-image: linear-gradient(#caf, white);
+    margin: 2px;
+    border: 2px solid #caf;
+    border-radius: 50%;
+}
+p::first-line{
+    font-weight: bolder;
+}
+p::first-letter{
+    font-size: 4rem;
+    color: red;
+}

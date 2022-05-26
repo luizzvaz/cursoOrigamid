@@ -1,0 +1,40 @@
+a{
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #caf;
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    border: 1px solid gray;
+}
+a:focus{
+    background-color: #cfa;
+    color: #371;
+}
+a:active{
+    background-color: #ffa;
+    color: #371;
+
+}
+.mouse{
+    transition: 0.5s;
+}
+.mouse:hover{
+background-color: antiquewhite;
+text-decoration: underline;
+}
+.foco:focus{
+    background-color: lightcoral;
+    border: 2px solid gray;
+    outline: none;
+    
+}
+.ativo{
+    background-color: gray;
+}
+.ativo:active{
+    background-color: #ffa;
+    color: #371;
+}

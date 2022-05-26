@@ -1,0 +1,24 @@
+.lista li:first-child{
+    background-color: lightseagreen;
+}
+.lista li:last-child{
+    background-color: aqua;
+}
+.lista li:nth-child(5){
+background-color: blueviolet;
+}
+
+
+.lista-2 li:nth-child(even){
+    background-color: brown;
+}
+.lista-2 li:nth-child(3n){
+    background-color: rgba(206, 215, 35, 0.741);
+}
+.lista3 li:not(:first-child, :last-child){
+    background-color: aqua;
+}
+
+section h2:not(.contato) {
+    text-decoration: underline;
+  }
